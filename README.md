@@ -1,5 +1,5 @@
-mean-vagrant
-============
+Turner Coding Challenge (powered by mean-vagrant)
+=================================================
 * You need to have vagrant installed
 * Launch machine with vagrant up
 * SSH to appserver via command `vagrant ssh appserver`
