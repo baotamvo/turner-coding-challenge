@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .container
+    .row
+      h1
+        span.hello.label.label-info Hi,
+      input.title-search(type='text',placeholder='Search Title',ng-model='titleSearchKey',ng-change='keyChanged()')
+      div
+        ul.titles.list-group
+          li.list-group-item(ng-repeat='title in titles')
+            {{title.TitleName}}
